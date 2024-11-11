@@ -8,7 +8,7 @@ namespace ObjectOrientedProgrammingH1day2.Exercises
 {
     internal class Account
     {
-        private double Balance { get; set; }
+        public double Balance { get; set; }
         public AccountOwner AccountOwner { get; set; }
 
         public Account(double balance, AccountOwner accountOwner)
